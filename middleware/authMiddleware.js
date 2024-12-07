@@ -1,6 +1,6 @@
 // middleware/authMiddleware.js
 const jwt = require('jsonwebtoken');
-const User = require('../models/User');
+const User = require('../models/userModel');
 
 module.exports.protect = (req, res, next) => {
   const token = req.headers.authorization && req.headers.authorization.split(' ')[1]; // 'Bearer <token>'

@@ -1,5 +1,5 @@
 // controllers/userController.js
-const User = require('../models/User');
+const User = require('../models/userModel');
 
 // Fetch user data by user ID (using authentication middleware)
 exports.getUserData = async (req, res) => {
