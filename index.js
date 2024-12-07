@@ -23,7 +23,7 @@ mongoose.connect(process.env.MONGODB_URI, {
 
 // Import Routes
 const authRoutes = require('./routes/authRoutes');
-const userRoutes = require('./routes/usersRoutes');
+const userRoutes = require('./routes/userRoutes');
 // const courseRoutes = require('./routes/coursesRoutes');
 
 // Use Routes
